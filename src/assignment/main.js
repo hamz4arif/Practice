@@ -1,4 +1,4 @@
-import react from 'react'
+
 import Navbat from '../assignment/navbar'
 import Hslidebar from '../assignment/hslidebar'
 import Hcards from '../assignment/hcards'

@@ -1,4 +1,4 @@
-import react, { useState } from 'react'
+import  { useState } from 'react'
 export default function App2() {
     let [count, setCount] = useState(0);
     let [day,setDay]=useState(true);

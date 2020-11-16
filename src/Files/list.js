@@ -1,4 +1,4 @@
-import react from 'react';
+
 function Lst(props) {
     return (
         <div > 

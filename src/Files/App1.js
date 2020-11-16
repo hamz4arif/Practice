@@ -1,4 +1,4 @@
-import react from 'react'
+
 export default function App1() {
     let std = [{ name: 'hamza', rollno: "12", depart: "SE" },
     { name: "suleman", rollno: "13" }]

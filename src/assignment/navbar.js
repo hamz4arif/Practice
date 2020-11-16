@@ -1,4 +1,4 @@
-import react from 'react'
+
 function Navbat(){
     return(
         <nav class="navbar navbar-expand-lg navbar-light bg-light">

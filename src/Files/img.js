@@ -1,4 +1,4 @@
-import react from 'react'
+
 function Img(props) {
     return (
         <div style={{flex:"1" ,flexDirection:"row"}}>

@@ -1,4 +1,4 @@
-import react from 'react'
+
 export default function Hslidebar() {
     return (
         <div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

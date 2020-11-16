@@ -1,4 +1,4 @@
-import react, { useContext } from 'react'
+import  { useContext } from 'react'
 import counterContext from './hcounterContext'
 export default function Hchild(){
    let counterValue=useContext(counterContext)
