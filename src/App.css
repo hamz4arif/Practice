@@ -1,7 +1,36 @@
+.Nxb3{
+  text-align: center;
+  background-color: black;
+  height: 600px;
+  border-radius: 30px;
+  color: white;
+}
+.main{
+  text-align: center;
+  height:500px;
+}
+.day{
+  background-color: yellow;
+}
+.night{
+  background-color: darkgray;
+}
+
+
+
+
 .App {
   text-align: center;
 }
-
+.table{
+  border: #282c34 solid 2px;
+}
+.row{
+  border: solid #282c34 2px;
+}
+.col{
+  border: solid #282c34 2px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

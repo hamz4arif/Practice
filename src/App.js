@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+// import App1 from './Files/App1';
+// import App2 from './Files/App2'
+// import Nxb3 from './Files/nxbc3'
+// import Img from './Files/img'
+// import Lst from './Files/list'
+// import Main from './assignment/main'
+import Parent from './bootcamp/hparent'
+import counterContext from './bootcamp/hcounterContext';
+import Hparent from './bootcamp/hparent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <counterContext.Provider value={100}>
+    <Hparent/>
+    </counterContext.Provider>
+    </>
   );
 }
 
