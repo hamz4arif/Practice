@@ -11,11 +11,15 @@ import './App.css';
 // import Hparent from './bootcamp/hparent';
 // import { useState } from 'react';
 // import Bcmain from './bootcamp/mainbc'
-import Red_main from './hreducer/red_main'
+// import Red_main from './hreducer/red_main'
+// import Context_main from './counterContext/context_main'
+import Temp_main from './temp_reducer/temp_main'
 
 function App() {
   return (
-    <Red_main />
+    <>
+      <Temp_main />
+    </>
   );
 }
 
